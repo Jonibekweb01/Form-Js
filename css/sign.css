@@ -31,15 +31,25 @@
 }
 
 .form-select {
-    margin-bottom: 25px !important;
+  margin-bottom: 25px !important;
 }
 
 .form-check-input {
-    margin-bottom: 25px !important;
+  margin-bottom: 25px !important;
 }
 
 .form-control::placeholder {
   font-size: 14px !important;
   line-height: 18px !important;
   color: #718bae !important;
+}
+
+.btn {
+  padding: 15px !important;
+  font-family: sans-serif !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #ffffff !important;
 }

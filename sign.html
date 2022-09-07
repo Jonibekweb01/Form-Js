@@ -39,10 +39,11 @@
               />
             </div>
             <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
+              <label for="inputState" class="form-label">Country</label>
               <select id="inputState" class="form-select px-3 py-2">
-                <option selected>Choose...</option>
-                <option>...</option>
+                <option selected>Select country</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Russia">Russia</option>
               </select>
             </div>
             <div class="col-12">
@@ -52,13 +53,15 @@
                   type="checkbox"
                   id="gridCheck"
                 />
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
+                <label class="form-check-label d-flex gap-2" for="gridCheck">
+                  I agree with the <a href="#" class="list-group-item text-primary">Privacy Policy </a>
                 </label>
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary w-100">
+                Sign in
+              </button>
             </div>
           </form>
         </div>
