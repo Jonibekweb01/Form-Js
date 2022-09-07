@@ -19,28 +19,31 @@
       <div class="container">
         <div class="py-4">
           <h1 class="text-center sign__title">Sign Up</h1>
-          <form class="row g-3">
+          <form class="row g-3 js-form">
             <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
+              <label for="inputEmail4" class="form-label js-labelEmail">Email</label>
               <input
                 type="email"
-                class="form-control"
+                required
+                class="js-inputEmail form-control"
                 id="inputEmail4"
                 placeholder="Enter email"
               />
             </div>
             <div class="col-12">
-              <label for="inputAddress" class="form-label">Password</label>
+              <label for="inputAddress" class="form-label js-labelPassword">Password</label>
               <input
+                required
                 type="password"
-                class="form-control"
+                class="js-inputPassword form-control"
                 id="inputAddress"
                 placeholder="Create password"
               />
+              <span class="length">At least 8 characters</span>
             </div>
             <div class="col-md-4">
               <label for="inputState" class="form-label"></label>
-              <select id="inputState" class="form-select px-3 py-2">
+              <select id="inputState" class="js-select form-select px-3 py-2">
                 <option selected>Select country</option>
                 <option value="Uzbekistan">Uzbekistan</option>
                 <option value="Russia">Russia</option>
@@ -49,12 +52,15 @@
             <div class="col-12">
               <div class="form-check">
                 <input
-                  class="form-check-input"
+                  class="js-check form-check-input"
                   type="checkbox"
                   id="gridCheck"
                 />
                 <label class="form-check-label d-flex gap-2" for="gridCheck">
-                  I agree with the <a href="#" class="list-group-item text-primary">Privacy Policy </a>
+                  I agree with the
+                  <a href="#" class="list-group-item text-primary"
+                    >Privacy Policy
+                  </a>
                 </label>
               </div>
             </div>
@@ -67,5 +73,7 @@
         </div>
       </div>
     </div>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>

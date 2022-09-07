@@ -30,8 +30,56 @@
   padding: 11px !important;
 }
 
+.form-controlErr {
+  border: 1px solid red !important;
+}
+
+.form-controlSuc {
+    border: 1px solid #00ff1a !important;
+}
+
+.form-controlErr::placeholder {
+  color: red !important;
+}
+
+.js-labelPasswordErr {
+    color: red !important;
+}
+
+.js-labelEmailErr {
+    color: red !important;
+}
+
+.js-labelEmailSuc {
+    border: 1px solid #00ff1a !important;
+}
+
+.lengthErr {
+    color: red !important;
+}
+
+.lengthSuc {
+    border: 1px solid #00ff1a !important;
+}
+
+span {
+  display: block !important;
+  margin-top: -20px !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: #354665 !important;
+}
+
 .form-select {
   margin-bottom: 25px !important;
+}
+
+.form-selectErr {
+    border: 1px solid red !important;
+}
+
+.form-selectSuc {
+    border: 1px solid #00ff1a !important;
 }
 
 .form-check-input {
@@ -41,7 +89,7 @@
 .form-control::placeholder {
   font-size: 14px !important;
   line-height: 18px !important;
-  color: #718bae !important;
+  color: #718bae;
 }
 
 .btn {
