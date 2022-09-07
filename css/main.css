@@ -3,16 +3,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   background: linear-gradient(74.32deg, #1446c7 7.9%, #6187e9 84.24%);
   border-radius: 40px 40px 0px 0px;
-}
-
-.container {
-  max-width: 1040px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 .link {
@@ -20,8 +13,9 @@ body {
 }
 
 .title {
+  margin: 0;
   font-family: sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 30px;
   color: #fff;
 }

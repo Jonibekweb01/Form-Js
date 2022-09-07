@@ -1,0 +1,37 @@
+.sign {
+  padding: 35px;
+}
+
+.container {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sign__title {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+.form-label {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #354665 !important;
+}
+
+.form-control {
+  padding: 11px;
+}
+
+.form-control::placeholder {
+  font-size: 14px;
+  line-height: 18px;
+  color: #718bae;
+  margin-bottom: 25px;
+}
